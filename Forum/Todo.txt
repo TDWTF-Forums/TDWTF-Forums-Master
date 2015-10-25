@@ -1,0 +1,40 @@
+Blocker
+- Finish adding OAuth attributes to ApiModels (In progress)
+- Finish basic SQL tables for User | Post | Topic | Categories
+- Finish basic forum models for User | Post | Topic | Categories
+
+Critical
+- Finish adding AutoDocument attributes to ApiModels (In progress)
+- Ensure all sql queries have an easy switch for sql server / postgresql
+
+Priority
+- Implement JSON feeds API (Requires OAuth attributes, SQL tables)
+- Implement OAuth api access for variables in JSON feeds to enforce permissions
+
+Normal
+- Implement Auto Documentation Display
+- Implement OAuth permissions display
+- Implement Categories
+- Implement Topics
+- Implement Posts
+- Implement Get (Posts | Topics | Categories)
+- Implement User Search
+- Implement Post Search (Title + Post body)
+- Implement Custom User Groups
+- Implement Custom User Group Permissions (IE: category/topic/forum visibility toggle and access)
+
+Nice to Have
+- Implement Twitch OAuth to log in
+- Implement Google OAuth to log in
+- Implement Facebook OAuth to log in
+- Implement Twitter OAuth to log in
+- Implement Github OAuth to log in
+- Implement RSS feed
+- Implement Email feed
+- Implement Reply By Email
+
+Ongoing
+- Ensure all front end display allows for easy localization (Note: This does NOT apply to the API JSON feeds from the back end)
+
+The extra mile
+- Translate Sql Server queries / stored procedures to Postgresql

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontend", "Frontend\Frontend.csproj", "{A5B119A5-ED0E-41C5-AFE0-6A82ECCEFB0C}"
 EndProject
@@ -14,6 +14,15 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner", "Runner\Runner.csproj", "{743A6C3F-0D9F-4830-91C4-CC3428F6A787}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor", "Monitor\Monitor.csproj", "{C5DF8DBD-AE9C-4E8D-ACE9-D848293A0064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{1984C077-46CA-497C-83B5-C92A8C89526D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{E55322A5-B39C-4330-9005-713AE10BF4A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task List", "Task List", "{D92731C5-A78C-4092-8E9A-9F5FB641B1CC}"
+	ProjectSection(SolutionItems) = preProject
+		Todo.txt = Todo.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +54,14 @@ Global
 		{C5DF8DBD-AE9C-4E8D-ACE9-D848293A0064}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5DF8DBD-AE9C-4E8D-ACE9-D848293A0064}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5DF8DBD-AE9C-4E8D-ACE9-D848293A0064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1984C077-46CA-497C-83B5-C92A8C89526D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1984C077-46CA-497C-83B5-C92A8C89526D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1984C077-46CA-497C-83B5-C92A8C89526D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1984C077-46CA-497C-83B5-C92A8C89526D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55322A5-B39C-4330-9005-713AE10BF4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55322A5-B39C-4330-9005-713AE10BF4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55322A5-B39C-4330-9005-713AE10BF4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55322A5-B39C-4330-9005-713AE10BF4A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
